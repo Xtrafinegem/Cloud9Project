@@ -1,5 +1,5 @@
 #I created create an account interface#
-print("\033[42m\033[34m******* WELCOME TO BANK OF CLOUD9*******")
+print("\033[42m\033[30m******* WELCOME TO BANK OF CLOUD9*******")  # I change colour code from blue to black #
 print("___________________________________________________________\n")
 print("\033[34m \033[47m----------ACCOUNT CREATION----------")
 name = input("Enter your name: ")
