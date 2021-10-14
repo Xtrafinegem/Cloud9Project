@@ -1,4 +1,4 @@
-#I created create an account interface.#
+#I created create an account interface#
 print("\033[42m\033[34m******* WELCOME TO BANK OF CLOUD9*******")
 print("___________________________________________________________\n")
 print("\033[34m \033[47m----------ACCOUNT CREATION----------")
