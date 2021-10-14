@@ -9,6 +9,6 @@ def withdraw(self, amount):
             print()
         else:
             self.balance = self.balance - self.amount
-            print(f"\033[32mGHC.{amount} withdrawal successful!")
+            print(f"\033[32mGHC{amount} withdrawal successful!")
             print("\033[34mCurrent account balance: \033[32mGHC", self.balance)
             print()
