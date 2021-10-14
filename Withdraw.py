@@ -4,7 +4,7 @@ def withdraw(self, amount):
         self.amount = amount
         if self.amount > self.balance:
             print("\033[31mInsufficient fund!")
-            print(f"\033[34mYour balance is \033[32mGHC.{self.balance} \033[34monly.")
+            print(f"\033[34mYour balance is \033[32mGHC{self.balance} \033[34monly.")
             print("Try with lesser amount than balance.")
             print()
         else:
