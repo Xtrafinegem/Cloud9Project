@@ -148,7 +148,7 @@ class ATM():
 
                     elif option == 7:
                             print(f"""
-                        \033[46m \033[34mprinting receipt..............
+                        \033[46m \033[30mprinting receipt..............
                 ******************************************
                     Transaction is now complete.                         
                     Transaction number: {random.randint(10000, 1000000)} 
