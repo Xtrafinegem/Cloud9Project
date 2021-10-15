@@ -1,3 +1,4 @@
+#Created the Transfer function of the ATM              
 def transfer(self,trans_amount):
         if trans_amount > self.balance:
             print("\033[31mInsufficient fund!")
