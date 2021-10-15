@@ -160,6 +160,7 @@ class ATM():
                 ******************************************
                 """)
                     else: 
+                        print("Error! Choose 1,2,3,4,5,6 or 7 only")
                         return option
                 sys.exit()
 
