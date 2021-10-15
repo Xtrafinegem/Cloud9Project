@@ -159,6 +159,8 @@ class ATM():
                     \033[3mThanks for choosing us as your bank                  
                 ******************************************
                 """)
+                     else: 
+                        return option
                 sys.exit()
 
 
