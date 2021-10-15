@@ -51,6 +51,8 @@ class ATM():
 
    
     def transaction(self):
+            print("Hello " + self.name)
+            print("What would you like to do today?")
             print("""
                 \033[32mTRANSACTION 
             *********************
