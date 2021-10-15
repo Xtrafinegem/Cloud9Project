@@ -93,7 +93,7 @@ class ATM():
                     
                     elif option == 3:
                         amount = float(input("How much do you want to deposit(GHC)?: "))
-                        Do = str(input("Put amount on the tray on your left side. If Done enter(y/n): "));
+                        Do = str(input("Put amount in the tray on your left side. If Done enter(y/n): "));
                         if Do == 'y':
                             passcode = str(input("Enter passcode: "))
                         if passcode != Pass_Num:
